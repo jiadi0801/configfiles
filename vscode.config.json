@@ -13,7 +13,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.tabSize": 2,
-    "editor.emptySelectionClipboard": false,
     "npm.enableScriptExplorer": true,
     "workbench.commandPalette.preserveInput": true,
     "workbench.iconTheme": "material-icon-theme",
