@@ -4,10 +4,10 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "files.associations": {
         "*.vm": "html",
-        "*.babel": "javascript"
+        "*.babel": "javascript",
+        "*.wxss": "css"
     },
     "telemetry.enableCrashReporter": false,
-    "workbench.colorTheme": "Visual Studio Dark",
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
