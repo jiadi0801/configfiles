@@ -1,0 +1,17 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 18,
+    "files.associations": {
+        "*.vm": "html",
+        "*.babel": "javascript"
+    },
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.emptySelectionClipboard": false,
+    "npm.enableScriptExplorer": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.iconTheme": "material-icon-theme"
+}
