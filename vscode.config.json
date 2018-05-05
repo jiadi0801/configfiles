@@ -1,6 +1,7 @@
 {
     "window.zoomLevel": 0,
     "editor.fontSize": 18,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "files.associations": {
         "*.vm": "html",
         "*.babel": "javascript"
@@ -9,9 +10,12 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "editor.tabSize": 2,
     "editor.emptySelectionClipboard": false,
     "npm.enableScriptExplorer": true,
     "workbench.commandPalette.preserveInput": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true
 }
