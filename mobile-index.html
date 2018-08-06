@@ -17,6 +17,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="renderer" content="webkit" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <script type="text/javascript" src="//storage.jd.com/jdview-h5/eruda.js"></script>
+    <script>
+      eruda.init({
+        tool: ['console', 'elements', 'network']
+      });
+      console.log(sessionStorage)
+      console.log(navigator.userAgent)
+      document.querySelector('.eruda-dev-tools').style.height = '40%';
+    </script>
+    <script type="text/javascript">
+      (function(){
+        function setFontSize() {
+          var deviceWidth = document.documentElement.clientWidth || document.body.clientWidth;
+          if( deviceWidth > 768 ) {
+            deviceWidth = 768;
+          } else if( deviceWidth < 320 ) {
+            deviceWidth = 320;
+          }
+          document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px';
+        }
+        setFontSize();
+        window.addEventListener("onorientationchange", function(){
+           switch(window.orientation){
+               case 90:
+                   setFontSize();
+                   break;
+               case -90:
+                   setFontSize();
+                   break;
+           }
+        }, false);
+        window.addEventListener("resize", setFontSize, false);
+      })();
+      
+    </script>
   </head>
   <body>
     <div id="app"></div>
