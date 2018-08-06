@@ -1,1 +1,5 @@
 
+$rootSize: 100;
+@function px2rem($px) {
+  @return $px / $rootSize * 1rem;
+}
