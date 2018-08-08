@@ -1,0 +1,20 @@
+# 转发
+https://mpm.jd.com/toensure/106413651  redirect://openapp.jdmobile://virtual?params={}
+
+# 替换URL
+https://aaaa.jd.com http://dev.m.jd.com
+https://dev.jd.com:88 http://dev.jd.com:88
+
+# 替换本地文件
+https://dev.jd.com/dist/main.js?release1 xfile://<D:/JDCProject/xxx/gitsource/xxx/dist/main.js>
+
+# 修改响应头
+rpp618.jd.com resHeaders://{dev-cors}
+# {dev-cors} 为一个json对象，定义在values里
+#{
+#  "Access-Control-Allow-Origin": "http://dev.m.jd.com"
+#}
+
+# 替换模板 {in.html}定义在values里
+plus.m.jd.com/index tpl://{in.html}
+
