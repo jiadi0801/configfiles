@@ -11,7 +11,7 @@
 // 可以采用变量的形式动态import，但是记得限定import的目录，不然会弹出警告
 // 限定了目录的将会把所有匹配的模块名都输出
 function getMs() {
-  const varpath = 'm2'
+  const varpath = 'm1'
   return import(/* webpackChunkName: "m1" */ './modules/' + varpath).then(m1 => {
     return m1
   })
@@ -28,6 +28,7 @@ function getMs1() {
 function clickBtn() {
   getMs().then(m1 => {
     console.log('loaded', m1.count)
+    m1.counter()
   })
   getMs1().then(m1 => {
     console.log('loaded ms1', m1.count)
