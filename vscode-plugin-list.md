@@ -11,3 +11,4 @@
 * Project Manager
 * Vetur
 * vscode-icons
+* power-mode
