@@ -1,0 +1,1 @@
+prerender-spa-plugin
