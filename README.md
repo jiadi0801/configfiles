@@ -7,6 +7,14 @@
 
 * 项目通用可替换的配置项，比如host，appid，统一放在独立文件中，方便动态发布
 
+## iconfont
+可采用这俩个工具尝试
+
+brew install ttfautohint fontforge --with-python
+
+npm install grunt-webfont --save-dev
+
+
 ## 疑问
 initializing的loading动画，翻页。寻求统一封装的模式。
 
