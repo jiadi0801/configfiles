@@ -1,5 +1,5 @@
 # ChromeAddon
-谷歌扩展
+谷歌扩展，欢迎补充
 
 * AdBlock
 * SwitchOmega
