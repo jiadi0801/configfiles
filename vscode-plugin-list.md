@@ -36,3 +36,4 @@
 * Swagger Viewer 预览swagger接口文件
 * glean react重构工具，抽离代码片段，重构为SFC组件等
 * Copilot for VS Code 偏向angular，但是也支持redux vuex的可视化管理
+* Bookmarks 代码位置书签
